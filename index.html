@@ -12,80 +12,167 @@
     />
     <title>Florian Kuc - Web Developer</title>
   </head>
+
   <body class="bg-secondary text-light">
+    <!-- Nav -->
+    <nav class="fixed-bottom bg-dark text-center">
+      <section class="row py-2">
+        <div class="col-4">
+          <a href="#about" class="text-light">About me</a>
+        </div>
+        <div class="col-4">
+          <a href="#skills" class="text-light">Skills</a>
+        </div>
+        <div class="col-4">
+          <a href="#contact" class="text-light">Contact</a>
+        </div>
+      </section>
+    </nav>
+
     <section class="container">
-      <main class="text-center mt-5">
-        <h1>Florian Kuc</h1>
-        <hr class="bg-info">
-        <h4 class="mt-4 mb-5">Web Developer</h4>
-        <img src="img/profile.jpg" alt="" class="rounded-circle mt-5 mb-5"/>
+      <!-- About section -->
+      <main class="text-center mt-5" id="about">
+        <h1 class="mt-5 text-uppercase">Florian Kuc</h1>
+        <h5 class="mb-5">Web Developer</h5>
+        <img src="img/profile.jpg" alt="" class="rounded-circle mt-5 mb-5" />
         <p class="mt-5 lead text-left">
           Hi, I am Florian. I am a web developer focused on combining efficient
-          code and modern designs with a twist. Feel free to check out my latest
-          components on Github or Codepen. If you like what you see, get in touch.
+          code and modern designs with a twist. Feel free to have a look at
+          <a href="#links" class="text-light bg-info"
+            ><u>my latest components</u></a
+          >
+          on Github or Codepen. If you like what you see, get in touch and we'll
+          talk!
         </p>
       </main>
 
-      <section class="mt-5">
+      <!-- Skills section -->
+      <section class="mt-5" id="skills">
         <h3 class="mt-5 mb-4">Skills and toolstack</h3>
 
-          <button class="rounded-pill btn btn-info m-1">
-              <h5 class="pt-1">ReactJS</h5>
-            </button>
-          <button class="rounded-pill btn btn-info m-1">
-              <h5 class="pt-1">VueJS</h5>
-            </button>
-          <button class="rounded-pill btn btn-info m-1">
-              <h5 class="pt-1">Responsive design</h5>
-            </button>
-          <button class="rounded-pill btn btn-info m-1">
-              <h5 class="pt-1">NodeJS</h5>
-            </button>
-          <button class="rounded-pill btn btn-info m-1">
-              <h5 class="pt-1">MongoDB</h5>
-            </button>
-          <button class="rounded-pill btn btn-info m-1">
-              <h5 class="pt-1">Express</h5>
-            </button>
-          <button class="rounded-pill btn btn-info m-1">
-              <h5 class="pt-1">Mobile apps</h5>
-            </button>
-          <button class="rounded-pill btn btn-info m-1">
-              <h5 class="pt-1">GSAP</h5>
-            </button>
-          <button class="rounded-pill btn btn-info m-1">
-              <h5 class="pt-1">Desktop apps</h5>
-            </button>
-          <button class="rounded-pill btn btn-info m-1">
-              <h5 class="pt-1">SASS</h5>
-            </button>
-          <button class="rounded-pill btn btn-info m-1">
-              <h5 class="pt-1">Styled components</h5>
-            </button>
+        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+          ReactJS
+        </div>
+        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+          VueJS
+        </div>
+        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+          Responsive design
+        </div>
+        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+          Node
+        </div>
+        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+          MongoDB
+        </div>
+        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+          Express
+        </div>
+        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+          Mobile apps
+        </div>
+        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+          GSAP
+        </div>
+        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+          Desktop apps
+        </div>
+        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+          SASS
+        </div>
+        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+          Styled components
+        </div>
+        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+          Scrollmagic
+        </div>
+      </section>
 
+      <!-- Links section -->
 
-            <section class="my-5 row">
-                <div class="col">
-                    <a href="#">
-                        <img src="img/xing_128.png" class=" p-2 img-fluid bg-light rounded" alt="">
-                    </a>
+      <h3 class="mt-5 mb-4" id="links">Links</h3>
+      <section class="mb-5 row">
+        <div class="col">
+          <a href="#">
+            <img
+              src="img/xing_128.png"
+              class=" p-2 img-fluid bg-light rounded"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="col">
+          <a
+            href="https://github.com/floriankuc"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="img/github_128.png"
+              class="p-2 img-fluid bg-light rounded"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="col">
+          <a
+            href="https://codepen.io/floriankuc"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="img/codepen_128.png"
+              class=" p-2 img-fluid bg-light rounded"
+              alt=""
+            />
+          </a>
+        </div>
+      </section>
 
-                </div>
-                <div class="col">
-                    <img src="img/github_128.png" class="p-2 img-fluid bg-light rounded" alt="">
-
-                </div>
-                <div class="col">
-
-                    <img src="img/codepen_128.png" class=" p-2 img-fluid bg-light rounded" alt="">
-                </div>
-            </section>
-
+      <!-- Bio section-->
       <section>
-        <h3>Get in touch</h3>
+        <h3 class="mt-5 mb-4">Biography</h3>
+        <div class="row">
+          <div class="col-12">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
+              minima asperiores tempora recusandae nostrum maxime sint
+              perspiciatis ipsum obcaecati vitae eius quia inventore quidem
+              eligendi, porro nam ducimus possimus sed.
+            </p>
+          </div>
+        </div>
+        <div class=" row m-1">
+          <p class="col-2">2019</p>
+          <p class="col-10">
+            Completed bootcamp at neuefische under coach Jerry Erbs
+          </p>
+        </div>
+        <div class=" row m-1">
+          <p class="col-2">2018</p>
+          <p class="col-10">
+            Team lead drinking water regulations and inspections at KALO
+          </p>
+        </div>
+        <div class=" row m-1">
+          <p class="col-2">2017</p>
+          <p class="col-10">
+            Customer relations manager at Statista
+          </p>
+        </div>
+        <div class=" row m-1">
+          <p class="col-2">2016</p>
+          <p class="col-10">
+            Training manager at LTC
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section id="contact">
+        <h3 class="mt-5 mb-3">Get in touch</h3>
         <form>
-          <div class="form-group">
-            <label for="email">Your email</label>
+          <div class="form-group mt-3">
             <input
               type="email"
               class="form-control"
@@ -93,31 +180,34 @@
               placeholder="your@email.com"
             />
           </div>
-
           <div class="form-group">
-            <label for="message">Your message to me</label>
             <textarea
               class="form-control"
               placeholder="Hey Florian,"
               id="message"
               rows="3"
             ></textarea>
-            <button type="submit" class="btn btn-info">Send</button>
+            <button type="submit" class="btn btn-lg btn-info mt-3 mb-5">
+              Send
+            </button>
           </div>
         </form>
       </section>
 
-      <section>
-        <h3>Biography</h3>
+      <section class="row">
+        <div class="col-6">
+          <p class="text-center text-dark">
+            <small>&copy; Florian Kuc 2019</small>
+          </p>
+        </div>
+        <div class="col">
+          <p class="mb-5 text-center">
+            <small
+              ><a href="#" class="text-dark"><u>Imprint</u></a></small
+            >
+          </p>
+        </div>
       </section>
-
-      <nav class="fixed-bottom">
-        <section class="row">
-          <div class="col-4">1</div>
-          <div class="col-4">2</div>
-          <div class="col-4">3</div>
-        </section>
-      </nav>
       <!-- end container -->
     </section>
   </body>
