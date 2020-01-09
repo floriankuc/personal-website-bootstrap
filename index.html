@@ -19,7 +19,7 @@
         <hr class="bg-info">
         <h4 class="mt-4 mb-5">Web Developer</h4>
         <img src="img/profile.jpg" alt="" class="rounded-circle mt-5 mb-5"/>
-        <p class="mt-5 lead">
+        <p class="mt-5 lead text-left">
           Hi, I am Florian. I am a web developer focused on combining efficient
           code and modern designs with a twist. Feel free to check out my latest
           components on Github or Codepen. If you like what you see, get in touch.
@@ -64,31 +64,45 @@
             </button>
 
 
-            <section class="my-5 mx-4row">
-              <img src="img/xing_128.png" class="border-info border p-2 img-fluid bg-light rounded-0" alt="">
+            <section class="my-5 row">
+                <div class="col">
+                    <a href="#">
+                        <img src="img/xing_128.png" class=" p-2 img-fluid bg-light rounded" alt="">
+                    </a>
+
+                </div>
+                <div class="col">
+                    <img src="img/github_128.png" class="p-2 img-fluid bg-light rounded" alt="">
+
+                </div>
+                <div class="col">
+
+                    <img src="img/codepen_128.png" class=" p-2 img-fluid bg-light rounded" alt="">
+                </div>
             </section>
 
       <section>
         <h3>Get in touch</h3>
         <form>
           <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
+            <label for="email">Your email</label>
             <input
               type="email"
               class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name@example.com"
+              id="email"
+              placeholder="your@email.com"
             />
           </div>
 
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <label for="message">Your message to me</label>
             <textarea
               class="form-control"
-              id="exampleFormControlTextarea1"
+              placeholder="Hey Florian,"
+              id="message"
               rows="3"
             ></textarea>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-info">Send</button>
           </div>
         </form>
       </section>
