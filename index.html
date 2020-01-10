@@ -14,186 +14,203 @@
   </head>
 
   <body class="bg-secondary text-light">
-    <!-- Nav -->
-    <nav class="fixed-bottom bg-dark text-center">
-      <section class="row py-2">
-        <div class="col-4">
-          <a href="#about" class="text-light">About me</a>
-        </div>
-        <div class="col-4">
-          <a href="#skills" class="text-light">Skills</a>
-        </div>
-        <div class="col-4">
-          <a href="#contact" class="text-light">Contact</a>
-        </div>
-      </section>
-    </nav>
+
+    <!-- Top nav for lg view -->
+    <nav
+    class="fixed-top bg-secondary text-right d-none d-md-block font-weight-lighter shadow-sm"
+  >
+    <section class="row py-2 justify-content-md-end mr-2">
+      <div class="col-2">
+        <a href="#about" class="text-light">About me</a>
+      </div>
+      <div class="col-2">
+        <a href="#skills" class="text-light">Skills</a>
+      </div>
+      <div class="col-2">
+        <a href="#contact" class="text-light">Contact</a>
+      </div>
+    </section>
+  </nav>
 
     <section class="container">
       <!-- About section -->
-      <main class="text-center mt-5" id="about">
-        <h1 class="mt-5 text-uppercase">Florian Kuc</h1>
-        <h5 class="mb-5">Web Developer</h5>
-        <img src="img/profile.jpg" alt="" class="rounded-circle mt-5 mb-5" />
-        <p class="mt-5 lead text-left">
-          Hi, I am Florian. I am a web developer focused on combining efficient
-          code and modern designs with a twist. Feel free to have a look at
-          <a href="#links" class="text-light bg-info"
-            ><u>my latest components</u></a
-          >
-          on Github or Codepen. If you like what you see, get in touch and we'll
-          talk!
-        </p>
-      </main>
+      <div class="row justify-content-lg-center">
+        <main class="text-center mt-5 col-12 col-lg-9" id="about">
+          <h1 class="mt-5 font-weight-lighter">Florian Kuc</h1>
+          <h5 class="mb-3 font-weight-lighter">Web Developer</h5>
+          <img src="img/profile.jpg" alt="" class="rounded-circle mt-5 mb-3" />
+          <p class="mt-5 lead text-left font-weight-lighter">
+            Hi, I am Florian. I am a web developer focused on combining
+            efficient code and modern designs with a twist. Feel free to have a
+            look at
+            <a href="#links" class="text-light bg-info"
+              ><u>my latest components</u></a
+            >
+            on Github or Codepen. If you like what you see, get in touch and
+            we'll talk!
+          </p>
+        </main>
+      </div>
 
       <!-- Skills section -->
-      <section class="mt-5" id="skills">
-        <h3 class="mt-5 mb-4">Skills and toolstack</h3>
+      <div class="row justify-content-center">
+        <section class="mt-5 col-12 col-lg-9" id="skills">
+          <h3 class="mt-5 mb-4 font-weight-lighter">Skills and toolstack</h3>
 
-        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
-          ReactJS
-        </div>
-        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
-          VueJS
-        </div>
-        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
-          Responsive design
-        </div>
-        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
-          Node
-        </div>
-        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
-          MongoDB
-        </div>
-        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
-          Express
-        </div>
-        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
-          Mobile apps
-        </div>
-        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
-          GSAP
-        </div>
-        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
-          Desktop apps
-        </div>
-        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
-          SASS
-        </div>
-        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
-          Styled components
-        </div>
-        <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
-          Scrollmagic
-        </div>
-      </section>
+          <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+            ReactJS
+          </div>
+          <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+            VueJS
+          </div>
+          <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+            Responsive design
+          </div>
+          <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+            Node
+          </div>
+          <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+            MongoDB
+          </div>
+          <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+            Express
+          </div>
+          <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+            Mobile apps
+          </div>
+          <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+            GSAP
+          </div>
+          <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+            Desktop apps
+          </div>
+          <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+            SASS
+          </div>
+          <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+            Styled components
+          </div>
+          <div class="bg-info rounded d-inline-block px-3 py-3 m-1">
+            Scrollmagic
+          </div>
+        </section>
+      </div>
 
       <!-- Links section -->
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-9">
+          
+          <h3 class="mt-5 mb-4 font-weight-lighter" id="links">Links</h3>
 
-      <h3 class="mt-5 mb-4" id="links">Links</h3>
-      <section class="mb-5 row">
-        <div class="col">
-          <a href="#">
-            <img
-              src="img/xing_128.png"
-              class=" p-2 img-fluid bg-light rounded"
-              alt=""
-            />
-          </a>
+
+          <section class="mb-5 justify-content-start">
+              <a href="#">
+                <img
+                  src="img/xing_128.png"
+                  class="p-2 m-2 bg-transparent border-info border rounded"
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://github.com/floriankuc"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="img/github_128.png"
+                  class="p-2 m-2 bg-transparent border-info border rounded"
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://codepen.io/floriankuc"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="img/codepen_128.png"
+                  class="p-2 m-2 bg-transparent border-info border rounded"
+                  alt=""
+                />
+              </a>
+          </section>
         </div>
-        <div class="col">
-          <a
-            href="https://github.com/floriankuc"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="img/github_128.png"
-              class="p-2 img-fluid bg-light rounded"
-              alt=""
-            />
-          </a>
-        </div>
-        <div class="col">
-          <a
-            href="https://codepen.io/floriankuc"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="img/codepen_128.png"
-              class=" p-2 img-fluid bg-light rounded"
-              alt=""
-            />
-          </a>
-        </div>
-      </section>
+      </div>
 
       <!-- Bio section-->
-      <section>
-        <h3 class="mt-5 mb-4">Biography</h3>
-        <div class="row">
-          <div class="col-12">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
-              minima asperiores tempora recusandae nostrum maxime sint
-              perspiciatis ipsum obcaecati vitae eius quia inventore quidem
-              eligendi, porro nam ducimus possimus sed.
+      <section class="font-weight-lighter row justify-content-lg-center">
+        <div class="col-12 col-lg-9">
+
+          <h3 class="mt-5 mb-4 font-weight-lighter">Biography</h3>
+          <div class="row">
+            <div class="col-12">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
+                minima asperiores tempora recusandae nostrum maxime sint
+                perspiciatis ipsum obcaecati vitae eius quia inventore quidem
+                eligendi, porro nam ducimus possimus sed.
+              </p>
+            </div>
+          </div>
+          <div class=" row m-1">
+            <p class="col-2 text-right">2019</p>
+            <p class="col-10">
+              Completed bootcamp at neuefische under coach Jerry Erbs
             </p>
           </div>
-        </div>
-        <div class=" row m-1">
-          <p class="col-2">2019</p>
-          <p class="col-10">
-            Completed bootcamp at neuefische under coach Jerry Erbs
-          </p>
-        </div>
-        <div class=" row m-1">
-          <p class="col-2">2018</p>
-          <p class="col-10">
-            Team lead drinking water regulations and inspections at KALO
-          </p>
-        </div>
-        <div class=" row m-1">
-          <p class="col-2">2017</p>
-          <p class="col-10">
-            Customer relations manager at Statista
-          </p>
-        </div>
-        <div class=" row m-1">
-          <p class="col-2">2016</p>
-          <p class="col-10">
-            Training manager at LTC
-          </p>
-        </div>
-      </section>
+          <div class=" row m-1">
+            <p class="col-2 text-right">2018</p>
+            <p class="col-10">
+              Team lead drinking water regulations and inspections at KALO
+            </p>
+          </div>
+          <div class=" row m-1">
+            <p class="col-2 text-right">2017</p>
+            <p class="col-10">
+              Customer relations manager at Statista
+            </p>
+          </div>
+          <div class=" row m-1">
+            <p class="col-2 text-right">2016</p>
+            <p class="col-10">
+              Training manager at LTC
+            </p>
+          </div>
+        </section>
+
 
       <!-- Contact section -->
-      <section id="contact">
-        <h3 class="mt-5 mb-3">Get in touch</h3>
-        <form>
-          <div class="form-group mt-3">
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              placeholder="your@email.com"
-            />
+      <section id="contact" class="row justify-content-lg-center">
+        <div class="col-12 col-lg-9">
+          <h3 class="mt-5 mb-4 font-weight-lighter">Get in touch</h3>
+          <form>
+            <div class="form-group mt-3">
+              <input
+                type="email"
+                class="form-control font-weight-lighter"
+                id="email"
+                placeholder="your@email.com"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                class="form-control font-weight-lighter"
+                placeholder="Hey Florian,"
+                id="message"
+                rows="3"
+              ></textarea>
+              <button
+                type="submit"
+                class="font-weight-lighter btn btn-lg btn-info mt-3 mb-5"
+              >
+                Send
+              </button>
+            </div>
+          </form>
           </div>
-          <div class="form-group">
-            <textarea
-              class="form-control"
-              placeholder="Hey Florian,"
-              id="message"
-              rows="3"
-            ></textarea>
-            <button type="submit" class="btn btn-lg btn-info mt-3 mb-5">
-              Send
-            </button>
-          </div>
-        </form>
-      </section>
+        </section>
 
+      <!-- Footer -->
       <footer class="row">
         <div class="col-6">
           <p class="text-right text-dark">
@@ -203,12 +220,30 @@
         <div class="col">
           <p class="mb-5 text-left">
             <small
-              ><a href="#" class="text-dark"><u>Imprint</u></a></small
+              ><a href="policy.html" class="text-dark"><u>Privacy policy</u></a></small
             >
           </p>
         </div>
       </footer>
-      <!-- end container -->
+
+      <!-- Bottom nav for mobile/tablet -->
+      <nav
+        class="fixed-bottom bg-dark text-center d-md-none font-weight-lighter"
+      >
+        <section class="row py-2">
+          <div class="col-4">
+            <a href="#about" class="text-light">About me</a>
+          </div>
+          <div class="col-4">
+            <a href="#skills" class="text-light">Skills</a>
+          </div>
+          <div class="col-4">
+            <a href="#contact" class="text-light">Contact</a>
+          </div>
+        </section>
+      </nav>
+
+      <!-- end page container -->
     </section>
   </body>
 </html>
