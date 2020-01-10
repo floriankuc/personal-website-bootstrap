@@ -14,23 +14,22 @@
   </head>
 
   <body class="bg-secondary text-light">
-
     <!-- Top nav for lg view -->
     <nav
-    class="fixed-top bg-secondary text-right d-none d-md-block font-weight-lighter shadow-sm"
-  >
-    <section class="row py-2 justify-content-md-end mr-2">
-      <div class="col-2">
-        <a href="#about" class="text-light">About me</a>
-      </div>
-      <div class="col-2">
-        <a href="#skills" class="text-light">Skills</a>
-      </div>
-      <div class="col-2">
-        <a href="#contact" class="text-light">Contact</a>
-      </div>
-    </section>
-  </nav>
+      class="fixed-top bg-secondary text-right d-none d-md-block font-weight-lighter shadow-sm"
+    >
+      <section class="row py-2 justify-content-md-end mr-2">
+        <div class="col-2">
+          <a href="#about" class="text-light">About me</a>
+        </div>
+        <div class="col-2">
+          <a href="#skills" class="text-light">Skills</a>
+        </div>
+        <div class="col-2">
+          <a href="#contact" class="text-light">Contact</a>
+        </div>
+      </section>
+    </nav>
 
     <section class="container">
       <!-- About section -->
@@ -96,43 +95,83 @@
         </section>
       </div>
 
+      <!-- JERRY FRAGEN WG DIV/SECTION SEMANTIC HIER, AUCH HIERARCHY -->
+      <!-- Teaser section -->
+      <div class="row justify-content-center mt-5">
+        <div class="col-12 col-lg-9">
+          <h3 class="mt-5 mb-4 font-weight-lighter" id="links">Projects</h3>
+          <section class="mb-5 justify-content-start row">
+            <div class="col-12 col-md-4 my-1">
+              <div class="card bg-transparent border border-info">
+                <div class="card-body">
+                  <h5 class="card-title">Animations for Fender</h5>
+                  <p class="card-text">
+                    Implemented new landing page with GSAP animations
+                  </p>
+                  <a href="#" class="btn btn-info">View details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 my-1">
+              <div class="card bg-transparent border border-info">
+                <div class="card-body">
+                  <h5 class="card-title">App for sustainability org</h5>
+                  <p class="card-text">
+                    New desktop app for Umdenkbar e. V. for foodsharing
+                  </p>
+                  <a href="#" class="btn btn-info">View details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 my-1">
+              <div class="card bg-transparent border border-info">
+                <div class="card-body">
+                  <h5 class="card-title">Backend for client whatever</h5>
+                  <p class="card-text">
+                    I wrote a backend for something. Nice.
+                  </p>
+                  <a href="#" class="btn btn-info">View details</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
       <!-- Links section -->
       <div class="row justify-content-center">
         <div class="col-12 col-lg-9">
-          
           <h3 class="mt-5 mb-4 font-weight-lighter" id="links">Links</h3>
-
-
           <section class="mb-5 justify-content-start">
-              <a href="#">
-                <img
-                  src="img/xing_128.png"
-                  class="p-2 m-2 bg-transparent border-info border rounded"
-                  alt=""
-                />
-              </a>
-              <a
-                href="https://github.com/floriankuc"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="img/github_128.png"
-                  class="p-2 m-2 bg-transparent border-info border rounded"
-                  alt=""
-                />
-              </a>
-              <a
-                href="https://codepen.io/floriankuc"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="img/codepen_128.png"
-                  class="p-2 m-2 bg-transparent border-info border rounded"
-                  alt=""
-                />
-              </a>
+            <a href="#">
+              <img
+                src="img/xing_128.png"
+                class="p-2 m-2 bg-transparent border-info border rounded"
+                alt=""
+              />
+            </a>
+            <a
+              href="https://github.com/floriankuc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="img/github_128.png"
+                class="p-2 m-2 bg-transparent border-info border rounded"
+                alt=""
+              />
+            </a>
+            <a
+              href="https://codepen.io/floriankuc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="img/codepen_128.png"
+                class="p-2 m-2 bg-transparent border-info border rounded"
+                alt=""
+              />
+            </a>
           </section>
         </div>
       </div>
@@ -140,13 +179,12 @@
       <!-- Bio section-->
       <section class="font-weight-lighter row justify-content-lg-center">
         <div class="col-12 col-lg-9">
-
           <h3 class="mt-5 mb-4 font-weight-lighter">Biography</h3>
           <div class="row">
             <div class="col-12">
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
-                minima asperiores tempora recusandae nostrum maxime sint
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Eveniet minima asperiores tempora recusandae nostrum maxime sint
                 perspiciatis ipsum obcaecati vitae eius quia inventore quidem
                 eligendi, porro nam ducimus possimus sed.
               </p>
@@ -176,8 +214,8 @@
               Training manager at LTC
             </p>
           </div>
-        </section>
-
+        </div>
+      </section>
 
       <!-- Contact section -->
       <section id="contact" class="row justify-content-lg-center">
@@ -207,8 +245,8 @@
               </button>
             </div>
           </form>
-          </div>
-        </section>
+        </div>
+      </section>
 
       <!-- Footer -->
       <footer class="row">
@@ -220,7 +258,9 @@
         <div class="col">
           <p class="mb-5 text-left">
             <small
-              ><a href="policy.html" class="text-dark"><u>Privacy policy</u></a></small
+              ><a href="policy.html" class="text-dark"
+                ><u>Privacy policy</u></a
+              ></small
             >
           </p>
         </div>
